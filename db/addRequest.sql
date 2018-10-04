@@ -1,0 +1,1 @@
+insert into allrequests (name, phone, address, city, state, zipcode, email) values ($1, $2, $3, $4, $5, $6, $7);

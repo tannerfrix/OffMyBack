@@ -1,0 +1,1 @@
+insert into ombrequest (itemid) values ($1);

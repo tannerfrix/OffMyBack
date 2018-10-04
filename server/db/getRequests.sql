@@ -1,1 +1,0 @@
-select * from ombrequest where itemid = $1;

@@ -1,1 +1,0 @@
-update ombitems set name = $1, description = $2, picture = $3, date = $4 where id = $5;

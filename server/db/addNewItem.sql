@@ -1,1 +1,0 @@
-insert into ombitems (name, description, picture, date) values ($1, $2, $3, $4);

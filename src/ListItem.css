@@ -1,0 +1,26 @@
+
+
+  .listAdminItem {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 95%;
+  }
+
+  .listEditDelete {
+      display: flex;
+      flex-direction: row;
+      justify-self: end;
+  }
+
+  .listEditButton {
+      margin-right: 1vw;
+      color: black;
+  }
+
+  .listDeleteButton:hover {
+      cursor: pointer;
+  }

@@ -1,0 +1,62 @@
+.adHeader {
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 25% 8% 33% 33%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logoutSection {
+    margin-right: 9vw;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.5vh;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.adAboutSection {
+    margin-left: 4vw;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dashTitle {
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.heloHome {
+    position: absolute;
+    margin-top: .9vh;
+    margin-left: 1vw;
+    height: 3.5vh;
+}
+
+.heloSearch {
+    position: absolute;
+    margin-top: .9vh;
+    margin-left: 4vw;
+    height: 3.5vh;
+}
+
+.newItemLink {
+    color: white;
+    text-decoration: none;
+}

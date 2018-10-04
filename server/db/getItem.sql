@@ -1,0 +1,1 @@
+select  * from ombitems where id = $1;

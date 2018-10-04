@@ -1,0 +1,75 @@
+.wheelContainer {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.wheelLeft{
+    align-self: center;
+    height: 40%;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    width: 3%;
+    text-align: center;
+    justify-self: center;
+    position: sticky;
+    left: 0;
+    top: 20%;
+    margin-right: .5vw;
+    font-size: 2vw;
+    color: white;
+    display: grid;
+    border-radius: 3%;
+}
+
+.wheelRight {
+    align-self: center;
+    height: 40%;
+    background-image: linear-gradient(97deg,  #42e8f4, #426ef4);
+    width: 3%;
+    text-align: center;
+    justify-self: flex-end;
+    position: sticky;
+    right: 0;
+    top: 20%;
+    margin-left: .5vw;
+    font-size: 2vw;
+    color: white;
+    display: grid;
+    border-radius: 3%;
+}
+
+.wheelItem {
+    height: 100%;
+    width: 21.69vw;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    margin-left: .75vw;
+    margin-right: .75vw;
+    
+}
+
+.wheelPic {
+    height:90%;
+    width:100%;
+    border-radius: 3%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wheelName {
+    justify-self: center;
+    align-self: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2vw;
+}
+
+.leftArrow {
+    align-self: center;
+}
+
+.rightArrow {
+    align-self: center;
+}

@@ -1,0 +1,73 @@
+.charityBackground {
+    background-color: slategrey;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .charityBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 80vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto auto 5vh auto;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 4vh;
+  }
+  .stripeBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 80vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto auto 5vh auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 2vw;
+  }
+  
+  .charityBlurb {
+      text-align: center;
+      margin-top: 5vh;
+  }
+  
+  .buttonLink {
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    text-decoration: none;
+    color: white;
+  }
+
+  .example {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stripeButton {
+    justify-self: center;
+    align-self: center;
+    height: 75%;
+    width: 60%;
+    margin-bottom: 15%;
+  }

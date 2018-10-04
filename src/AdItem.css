@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .adItemBackground {
+    background-color: slategrey;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .adItemBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 80vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto auto 5vh auto;
+    display: grid;
+    grid-template-rows: 55% 7% 7% 7% 7%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 4vh;
+  }
+  
+  
+  .buttonLink {
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    text-decoration: none;
+    color: white;
+  }
+
+  .adItemPic {
+      background-color: white;
+      width: 60%;
+      height: 100%;
+      justify-self: center;
+  }
+
+  .adItemNameBox {
+      width: 100%;
+      height: 100%;
+      margin-top: 2vh;
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+  }
+
+  .adItemName {
+      font-size: 4vh;
+      margin-left: 1vw;
+      margin-right: 1vw;
+  }
+
+  .adItemDesc {
+      font-size: 4vh;
+      margin-left: 1vw;
+      margin-right: .95vw;
+      align-self: center;
+  }
+
+  .adItemNameInput {
+      height: 3vh;
+      width: 30vw;
+      font-size: 3vh;
+  }
+ 
+  .adItemDescInput {
+      height: 5vh;
+      width: 30vw;
+      font-size: 2vh;
+      margin-left: 1vw;
+  }
+
+  .adItemPicInput {
+    height: 3vh;
+    width: 30vw;
+    font-size: 3vh;
+    margin-left: 2.75vw;
+    align-self: center;
+}
+
+.adItemPicBox {
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.adItemDateBox {
+    width: 100%;
+    height: 100%;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.adItemDateInput {
+    height: 3vh;
+    width: 30vw;
+    font-size: 3vh;
+    margin-left: 1.3vw;
+    align-self: center;
+}
+
+.adItemButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1vw;
+}
+.adButton {
+    height: 5vh;
+    width: 45%;
+    border-radius: 8px;
+    background-image: linear-gradient(128deg, rgba(64, 61, 57, 0.1), rgba(255, 255, 255, 0.2));
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 3vh;
+    color: black;
+}
+
+.adButtonLink {
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    text-decoration: none;
+    color: black;
+}

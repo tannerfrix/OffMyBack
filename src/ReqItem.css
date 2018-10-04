@@ -1,0 +1,67 @@
+.reqItemBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 80vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto auto 5vh auto;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 4vh;
+  }
+
+  .reqItemTopBox {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .reqItemInput {
+      margin-top: 2vh;
+      width: 95%;
+      height: 7%;
+  }
+
+  .reqItemTitles {
+      display: flex;
+      margin-top: 2vh;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 1vw;
+  }
+
+  .reqItemInputBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .reqItemInput {
+      font-size: 1.5vw;
+
+  }
+
+  .reqItemSubmit {
+    height: 6vh;
+    width: 30%;
+    border-radius: 8px;
+    background-image: linear-gradient(128deg, rgba(64, 61, 57, 0.1), rgba(255, 255, 255, 0.2));
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 4vh;
+    color: black;
+    align-self: center;
+    justify-self: center;
+    margin-top: 2vh;
+}
+
+.reqButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

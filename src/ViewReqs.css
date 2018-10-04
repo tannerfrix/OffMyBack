@@ -1,0 +1,54 @@
+.viewReqBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 80vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto auto 5vh auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 4vh;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .reqListing {
+      width: 90%;
+      height: 20vh;
+      margin-top: 2vh;
+      align-self: center;
+      border-bottom: solid;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+  .reqTopRow {
+      height: 20vh;
+      width: 100%;
+      font-size: 3vh;
+      text-align: center;
+  }
+
+  .reqMiddleRow {
+      height: 20vh;
+      width: 100%;
+      font-size: 3vh;
+      text-align: center;
+  }
+
+  .reqBottomRow {
+      height: 20vh;
+      width: 100%;
+      font-size: 3vh;
+      text-align: center;
+  }
+

@@ -1,0 +1,13 @@
+.homeBackground {
+  background-color: slategrey;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+.wheelHouse {
+  width: 100vw;
+  height: 50vh;
+  justify-self: center;
+  align-self: center;
+}

@@ -1,0 +1,44 @@
+.itemBox {
+    border-radius: 8px;
+    background-image: linear-gradient(97deg, #426ef4, #42e8f4);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+    height: 50vh;
+    width: 40vw;
+    position: absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 4vh;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+  }
+
+  .adminItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 95%;
+  }
+
+  .editDelete {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .editButton {
+      margin-right: 1vw;
+      color: black;
+  }
+
+  .deleteButton:hover {
+      cursor: pointer;
+  }
